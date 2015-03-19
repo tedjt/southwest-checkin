@@ -15,6 +15,10 @@ Rails.application.routes.draw do
 
   get 'privacy', to: 'static#privacy'
 
+  namespace :admin do
+    get 'dashboard', to: 'dashboard#index'
+  end
+
   authenticate :user, lambda { |u| u.admin? } do
     mount Sidekiq::Web => '/sidekiq'
   end
