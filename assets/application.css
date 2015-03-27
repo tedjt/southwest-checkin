@@ -68,37 +68,37 @@
 
 @font-face {
   font-family: 'Cooper Hewitt Light';
-  src: url(/assets/cooper_hewitt/CooperHewitt-Light.eot);
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Light.eot);
   /* IE9 Compat Modes */
-  src: url(/assets/cooper_hewitt/CooperHewitt-Light.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Light.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Light.svg#svgFontName) format("svg");
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Light.eot?#iefix) format("embedded-opentype"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Light.woff) format("woff"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Light.svg#svgFontName) format("svg");
   /* Legacy iOS */
 }
 @font-face {
   font-family: 'Cooper Hewitt Book';
-  src: url(/assets/cooper_hewitt/CooperHewitt-Book.eot);
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Book.eot);
   /* IE9 Compat Modes */
-  src: url(/assets/cooper_hewitt/CooperHewitt-Book.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Book.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Book.svg#svgFontName) format("svg");
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Book.eot?#iefix) format("embedded-opentype"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Book.woff) format("woff"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Book.svg#svgFontName) format("svg");
   /* Legacy iOS */
 }
 @font-face {
   font-family: 'Cooper Hewitt Medium';
-  src: url(/assets/cooper_hewitt/CooperHewitt-Medium.eot);
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Medium.eot);
   /* IE9 Compat Modes */
-  src: url(/assets/cooper_hewitt/CooperHewitt-Medium.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Medium.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Medium.svg#svgFontName) format("svg");
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Medium.eot?#iefix) format("embedded-opentype"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Medium.woff) format("woff"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Medium.svg#svgFontName) format("svg");
   /* Legacy iOS */
 }
 @font-face {
   font-family: 'Cooper Hewitt Thin';
-  src: url(/assets/cooper_hewitt/CooperHewitt-Thin.eot);
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Thin.eot);
   /* IE9 Compat Modes */
-  src: url(/assets/cooper_hewitt/CooperHewitt-Thin.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Thin.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Thin.svg#svgFontName) format("svg");
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Thin.eot?#iefix) format("embedded-opentype"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Thin.woff) format("woff"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Thin.svg#svgFontName) format("svg");
   /* Legacy iOS */
 }
 @font-face {
   font-family: 'Cooper Hewitt Semibold';
-  src: url(/assets/cooper_hewitt/CooperHewitt-Semibold.eot);
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Semibold.eot);
   /* IE9 Compat Modes */
-  src: url(/assets/cooper_hewitt/CooperHewitt-Semibold.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Semibold.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Semibold.svg#svgFontName) format("svg");
+  src: url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Semibold.eot?#iefix) format("embedded-opentype"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Semibold.woff) format("woff"), url(/southwest-checkin/assets/cooper_hewitt/CooperHewitt-Semibold.svg#svgFontName) format("svg");
   /* Legacy iOS */
 }
 /* line 49, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
@@ -270,7 +270,7 @@ form .field label, .ReservationCard-flight-checkins,
 
 /* line 18, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
 .Icon-plane-arrow {
-  background-image: url(/assets/plane-arrow-555.svg);
+  background-image: url(/southwest-checkin/assets/plane-arrow-555.svg);
   height: 13px;
   min-width: 28px;
 }
@@ -281,22 +281,22 @@ form .field label, .ReservationCard-flight-checkins,
 }
 /* line 28, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
 .Icon-plane-arrow.light {
-  background-image: url(/assets/plane-arrow-ECF0F1.svg);
+  background-image: url(/southwest-checkin/assets/plane-arrow-ECF0F1.svg);
 }
 
 /* line 33, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
 .Icon-gear {
-  background-image: url(/assets/gear-FFF.svg);
+  background-image: url(/southwest-checkin/assets/gear-FFF.svg);
 }
 
 /* line 37, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
 .Icon-checkmark {
-  background-image: url(/assets/checkmark-45BF55.svg);
+  background-image: url(/southwest-checkin/assets/checkmark-45BF55.svg);
 }
 
 /* line 41, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
 .Icon-clock {
-  background-image: url(/assets/clock-E7D97B.svg);
+  background-image: url(/southwest-checkin/assets/clock-E7D97B.svg);
 }
 
 /* line 45, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
@@ -1131,18 +1131,18 @@ form .actions {
   background-size: cover;
   background-blend-mode: soft-light;
   padding: 50px 20px 50px;
-  background-image: url(/assets/hero-bg-500.jpg);
+  background-image: url(/southwest-checkin/assets/hero-bg-500.jpg);
 }
 @media only screen and (min-width: 501px) {
   /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
   .Hero {
-    background-image: url(/assets/hero-bg-1000.jpg);
+    background-image: url(/southwest-checkin/assets/hero-bg-1000.jpg);
   }
 }
 @media only screen and (min-width: 1001px) {
   /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
   .Hero {
-    background-image: url(/assets/hero-bg-2000.jpg);
+    background-image: url(/southwest-checkin/assets/hero-bg-2000.jpg);
   }
 }
 @media only screen and (min-width: 769px) {
