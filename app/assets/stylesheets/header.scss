@@ -37,6 +37,10 @@
   }
 }
 
+.Header-logo {
+  text-align: center;
+}
+
 .Header-logo-img {
   margin-top: ($Header-height-mobile - $Header-logo-height-mobile) / 2;
   height: $Header-logo-height-phone;
