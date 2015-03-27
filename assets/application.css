@@ -1,0 +1,1480 @@
+@charset "UTF-8";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* Colors
+---------------*/
+/* Header
+---------------*/
+/* Footer
+---------------*/
+/* Hero
+---------------*/
+/* Font & Icon sizes
+---------------*/
+/* Typography
+---------------*/
+/* Forms
+---------------*/
+/* Notice
+---------------*/
+/* Dropdown
+---------------*/
+/* Z-index
+---------------*/
+/* Breakpoints
+---------------*/
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/utilities.scss */
+.u-text-padded,
+.Icon--padded,
+.DotList > li:after {
+  margin: 0 5px;
+}
+
+/* line 6, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/utilities.scss */
+.u-text-padded-right,
+.Icon--padded-right {
+  margin-right: 5px;
+}
+
+/* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/utilities.scss */
+.u-text-padded-left,
+.Icon--padded-left {
+  margin-left: 5px;
+}
+
+/* line 2, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/scaffolding.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/scaffolding.scss */
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt Light';
+  src: url(/assets/cooper_hewitt/CooperHewitt-Light.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/cooper_hewitt/CooperHewitt-Light.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Light.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Light.svg#svgFontName) format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Cooper Hewitt Book';
+  src: url(/assets/cooper_hewitt/CooperHewitt-Book.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/cooper_hewitt/CooperHewitt-Book.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Book.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Book.svg#svgFontName) format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Cooper Hewitt Medium';
+  src: url(/assets/cooper_hewitt/CooperHewitt-Medium.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/cooper_hewitt/CooperHewitt-Medium.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Medium.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Medium.svg#svgFontName) format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Cooper Hewitt Thin';
+  src: url(/assets/cooper_hewitt/CooperHewitt-Thin.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/cooper_hewitt/CooperHewitt-Thin.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Thin.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Thin.svg#svgFontName) format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Cooper Hewitt Semibold';
+  src: url(/assets/cooper_hewitt/CooperHewitt-Semibold.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/cooper_hewitt/CooperHewitt-Semibold.eot?#iefix) format("embedded-opentype"), url(/assets/cooper_hewitt/CooperHewitt-Semibold.woff) format("woff"), url(/assets/cooper_hewitt/CooperHewitt-Semibold.svg#svgFontName) format("svg");
+  /* Legacy iOS */
+}
+/* line 49, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+body, .Columns.Columns--three .Column, .Form .actions input[type="submit"],
+.Form .actions button[type="submit"],
+form .actions input[type="submit"],
+form .actions button[type="submit"],
+.BlueSubmitButton {
+  font-size: 16px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 49, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  body, .Columns.Columns--three .Column, .Form .actions input[type="submit"],
+  .Form .actions button[type="submit"],
+  form .actions input[type="submit"],
+  form .actions button[type="submit"],
+  .BlueSubmitButton {
+    font-size: 16px;
+  }
+}
+
+/* line 53, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.Form,
+form, #error_explanation h2, .ReservationCard-footer {
+  font-size: 14px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 53, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .Form,
+  form, #error_explanation h2, .ReservationCard-footer {
+    font-size: 14px;
+  }
+}
+
+/* line 57, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.FieldGroupTitle, .Table th, .Footer, .notice,
+.alert, .FieldGroupNote, .FormLink, #error_explanation ul, .Table, .ReservationCard-label, .ReservationCard-flight-checkins,
+.ReservationCard-flight-details {
+  font-size: 13px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 57, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .FieldGroupTitle, .Table th, .Footer, .notice,
+  .alert, .FieldGroupNote, .FormLink, #error_explanation ul, .Table, .ReservationCard-label, .ReservationCard-flight-checkins,
+  .ReservationCard-flight-details {
+    font-size: 13px;
+  }
+}
+
+/* line 61, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.Footer-notice {
+  font-size: 11px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 61, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .Footer-notice {
+    font-size: 11px;
+  }
+}
+
+/* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.ReservationCard-flight-title, .ReservationCard-flight-group-title {
+  font-size: 18px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .ReservationCard-flight-title, .ReservationCard-flight-group-title {
+    font-size: 18px;
+  }
+}
+
+/* line 69, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.ReservationCard-confirmation-number {
+  font-size: 28px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 69, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .ReservationCard-confirmation-number {
+    font-size: 28px;
+  }
+}
+
+/* line 73, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+body, .Columns.Columns--three .Column, .Form .actions input[type="submit"],
+.Form .actions button[type="submit"],
+form .actions input[type="submit"],
+form .actions button[type="submit"],
+.BlueSubmitButton {
+  font-family: 'Cooper Hewitt Light';
+  font-weight: 400;
+}
+@media only screen and (min-width: 769px) {
+  /* line 73, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  body, .Columns.Columns--three .Column, .Form .actions input[type="submit"],
+  .Form .actions button[type="submit"],
+  form .actions input[type="submit"],
+  form .actions button[type="submit"],
+  .BlueSubmitButton {
+    font-family: 'Cooper Hewitt Book';
+  }
+}
+
+/* line 83, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+body {
+  color: #555;
+}
+
+/* line 88, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+a {
+  color: #3498DB;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
+  text-decoration: none;
+}
+/* line 93, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 98, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.FieldGroupTitle, .Table th, .Form .field label,
+form .field label, .ReservationCard-flight-checkins,
+.Reservations-checkins--success {
+  font-family: 'Cooper Hewitt Book';
+}
+@media only screen and (min-width: 769px) {
+  /* line 98, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .FieldGroupTitle, .Table th, .Form .field label,
+  form .field label, .ReservationCard-flight-checkins,
+  .Reservations-checkins--success {
+    font-family: 'Cooper Hewitt Medium';
+  }
+}
+
+/* line 106, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.bold {
+  font-family: 'Cooper Hewitt Semibold';
+}
+
+/* line 115, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+.FieldGroupTitle, .Table th {
+  color: #a2a2a2;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 115, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/typography.scss */
+  .FieldGroupTitle, .Table th {
+    font-family: 'Cooper Hewitt Book';
+    color: #555;
+  }
+}
+
+/* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+[class^="Icon-"] {
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 16px;
+  min-width: 16px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  [class^="Icon-"] {
+    height: 16px;
+    min-width: 16px;
+  }
+}
+
+/* line 18, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-plane-arrow {
+  background-image: url(/assets/plane-arrow-555.svg);
+  height: 13px;
+  min-width: 28px;
+}
+/* line 23, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-plane-arrow.Icon--large {
+  height: 17px;
+  min-width: 36px;
+}
+/* line 28, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-plane-arrow.light {
+  background-image: url(/assets/plane-arrow-ECF0F1.svg);
+}
+
+/* line 33, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-gear {
+  background-image: url(/assets/gear-FFF.svg);
+}
+
+/* line 37, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-checkmark {
+  background-image: url(/assets/checkmark-45BF55.svg);
+}
+
+/* line 41, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon-clock {
+  background-image: url(/assets/clock-E7D97B.svg);
+}
+
+/* line 45, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--large {
+  height: 18px;
+  min-width: 18px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 45, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--large {
+    height: 18px;
+    min-width: 18px;
+  }
+}
+
+/* line 49, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--smaller {
+  height: 14px;
+  min-width: 14px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 49, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--smaller {
+    height: 14px;
+    min-width: 14px;
+  }
+}
+
+/* line 53, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--smallest {
+  height: 13px;
+  min-width: 13px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 53, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--smallest {
+    height: 13px;
+    min-width: 13px;
+  }
+}
+
+/* line 57, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--tiny {
+  height: 11px;
+  min-width: 11px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 57, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--tiny {
+    height: 11px;
+    min-width: 11px;
+  }
+}
+
+/* line 61, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--large {
+  height: 18px;
+  min-width: 18px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 61, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--large {
+    height: 18px;
+    min-width: 18px;
+  }
+}
+
+/* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+.Icon--largest {
+  height: 28px;
+  min-width: 28px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/icons.scss */
+  .Icon--largest {
+    height: 28px;
+    min-width: 28px;
+  }
+}
+
+/* line 2, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/grid.scss */
+.Columns.Columns--three {
+  width: 100%;
+  font-size: 0;
+}
+@media only screen and (min-width: 769px) {
+  /* line 6, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/grid.scss */
+  .Columns.Columns--three .Column {
+    display: inline-block;
+    margin: 0;
+    width: 33.3%;
+  }
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink, .HeroButtonLink, .Form .actions input[type="submit"],
+.Form .actions button[type="submit"],
+form .actions input[type="submit"],
+form .actions button[type="submit"],
+.BlueSubmitButton {
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+          transition: all .2s ease;
+  white-space: nowrap;
+}
+
+/* line 19, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  border: 2px solid #3498DB;
+  padding: 10px 10px 5px;
+}
+/* line 27, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink:hover {
+  color: #217dbb;
+  border-color: #217dbb;
+  text-decoration: none;
+}
+/* line 33, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink:active {
+  border-color: #196090;
+}
+/* line 37, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink.GhostButtonLink--dark {
+  border: 2px solid #1E7FF7;
+  background-color: #2C3E50;
+  color: #ECF0F1;
+}
+/* line 42, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink.GhostButtonLink--dark:hover {
+  color: white;
+  border-color: #0866da;
+  background-color: #273646;
+}
+/* line 48, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.GhostButtonLink.GhostButtonLink--dark:active {
+  border-color: #064fa9;
+}
+
+/* line 54, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroLink, .HeroButtonLink {
+  text-decoration: none;
+  line-height: 1;
+  padding: 15px 15px 10px;
+  display: inline-block;
+  color: #ECF0F1;
+  font-family: 'Cooper Hewitt Light';
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+  font-size: 14px;
+}
+/* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroLink:hover, .HeroButtonLink:hover {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (min-width: 769px) {
+  /* line 54, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+  .HeroLink, .HeroButtonLink {
+    padding: 20px 20px 15px;
+    font-size: 20px;
+  }
+}
+
+/* line 79, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroLink:hover {
+  text-decoration: underline;
+}
+
+/* line 84, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroButtonLink {
+  color: #ECF0F1;
+  background-color: #E74C3C;
+}
+/* line 14, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroButtonLink:hover {
+  background-color: #e43725;
+}
+/* line 89, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroButtonLink:hover {
+  box-shadow: inset rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.1) 0 1px 2px, #E74C3C 0 1px 10px;
+}
+/* line 93, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.HeroButtonLink:active {
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* line 98, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.Form .actions input[type="submit"],
+.Form .actions button[type="submit"],
+form .actions input[type="submit"],
+form .actions button[type="submit"],
+.BlueSubmitButton {
+  color: #ECF0F1;
+  background-color: #1E7FF7;
+  padding: 10px 10px 5px;
+}
+/* line 14, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.Form .actions input[type="submit"]:hover,
+.Form .actions button[type="submit"]:hover,
+form .actions input[type="submit"]:hover,
+form .actions button[type="submit"]:hover,
+.BlueSubmitButton:hover {
+  background-color: #0971f3;
+}
+
+/* line 106, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/buttons.scss */
+.ButtonPointingAngle {
+  font-size: 140%;
+  line-height: 0.71429;
+  vertical-align: text-bottom;
+  margin-left: 2px;
+}
+
+/* line 3, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown {
+  position: relative;
+  text-align: center;
+}
+/* line 7, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown.js-open .Dropdown-menu {
+  display: block;
+}
+
+/* line 12, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-toggle {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* line 17, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu {
+  position: absolute;
+  z-index: 4;
+  display: none;
+  background-color: #FFF;
+  min-width: 100%;
+  padding: 5px 0;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-size: 90%;
+}
+/* line 29, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu ul {
+  list-style: none;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+/* line 36, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu li {
+  text-align: left;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/* line 41, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu li:hover {
+  background-color: #cbd7e3;
+}
+/* line 46, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu a {
+  padding: 5px 10px;
+  display: block;
+  margin-left: 0;
+  text-decoration: none;
+}
+/* line 53, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu, .Dropdown-menu a {
+  color: #555;
+}
+
+/* line 59, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-menu-arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #FFF;
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+  top: -8px;
+  margin-left: -8px;
+}
+
+/* line 72, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/dropdown.scss */
+.Dropdown-toggle-down-arrow {
+  margin-left: 4px;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  background: #2C3E50;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header {
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+  }
+}
+
+/* line 20, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header.Header--static {
+  text-align: center;
+}
+
+/* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header,
+.Header-action,
+.Header-action > a {
+  color: #ECF0F1;
+  text-decoration: none;
+}
+
+/* line 31, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Body {
+  position: relative;
+  margin-top: 60px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 31, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Body {
+    margin-top: 80px;
+  }
+}
+
+/* line 40, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-logo {
+  text-align: center;
+}
+
+/* line 44, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-logo-img {
+  margin-top: 14px;
+  height: 24px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 44, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-logo-img {
+    height: 32px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* line 44, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-logo-img {
+    margin-top: 15px;
+    height: 50px;
+  }
+}
+
+/* line 58, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-actions {
+  position: absolute;
+  right: 15px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 58, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-actions {
+    right: 30px;
+  }
+}
+
+/* line 67, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-action {
+  display: inline-block;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 67, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-action {
+    margin-left: 15px;
+  }
+}
+/* line 75, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-action > a:hover {
+  color: white;
+}
+
+/* line 80, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-action--only-desktop {
+  display: none;
+}
+@media only screen and (min-width: 569px) {
+  /* line 80, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-action--only-desktop {
+    display: inline-block;
+  }
+}
+
+/* line 88, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-action--only-iphone6 {
+  display: none;
+}
+@media (min-width: 375px) {
+  /* line 88, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-action--only-iphone6 {
+    display: inline-block;
+  }
+}
+
+/* line 96, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-dropdown .Dropdown-menu {
+  right: -10px;
+  top: 50px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 96, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+  .Header-dropdown .Dropdown-menu {
+    top: 65px;
+    right: -15px;
+  }
+}
+/* line 105, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-dropdown .Dropdown-menu .Dropdown-menu-arrow {
+  margin-left: 25px;
+}
+
+/* line 110, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/header.scss */
+.Header-icon-gear {
+  position: relative;
+  top: 4px;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.Footer {
+  text-align: center;
+  height: 100px;
+  padding-top: 30px;
+}
+
+/* line 8, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.Footer.Footer--dark {
+  background-color: #2C3E50;
+}
+/* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.Footer.Footer--dark, .Footer.Footer--dark a {
+  color: #cfd9db;
+}
+/* line 15, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.Footer.Footer--dark .Footer-notice {
+  color: #b1c2c6;
+}
+
+/* line 20, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.DotList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.DotList > li {
+  display: inline-block;
+}
+/* line 28, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.DotList > li:after {
+  content: ' · ';
+}
+/* line 33, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.DotList > li:last-child:after {
+  content: '';
+}
+
+/* line 39, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/footer.scss */
+.Footer-notice {
+  margin-top: 10px;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/notice.scss */
+.notice,
+.alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  color: white;
+  max-height: 400px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.8), inset 0 -3px 3px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 17, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/notice.scss */
+.notice-inner {
+  padding: 10px 10px 10px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 17, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/notice.scss */
+  .notice-inner {
+    padding: 15px 15px 10px;
+  }
+}
+
+/* line 25, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/notice.scss */
+.notice {
+  background-color: #3498DB;
+}
+
+/* line 29, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/notice.scss */
+.alert {
+  background-color: #E74C3C;
+}
+
+/* line 5, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form,
+form {
+  margin: 0 auto;
+  padding-top: 45px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 5, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form,
+  form {
+    padding-top: 60px;
+  }
+}
+/* line 15, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field,
+form .field {
+  height: 40px;
+  line-height: 40px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 15, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form .field,
+  form .field {
+    height: 64px;
+    line-height: 64px;
+  }
+}
+/* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field label, .Form .field input,
+form .field label,
+form .field input {
+  float: left;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 29, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field label,
+form .field label {
+  text-align: left;
+  padding-right: 10px;
+  width: 38%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media only screen and (min-width: 569px) {
+  /* line 29, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form .field label,
+  form .field label {
+    width: 35%;
+  }
+}
+/* line 42, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field .field_with_errors input,
+form .field .field_with_errors input {
+  line-height: 39px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 42, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form .field .field_with_errors input,
+  form .field .field_with_errors input {
+    line-height: 63px;
+  }
+}
+/* line 50, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field input,
+form .field input {
+  border: 0;
+  padding: 0;
+  height: 100%;
+  width: 62%;
+}
+/* line 56, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field input:focus,
+form .field input:focus {
+  outline: none;
+}
+@media only screen and (min-width: 569px) {
+  /* line 50, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form .field input,
+  form .field input {
+    width: 65%;
+  }
+}
+/* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field input[type="checkbox"],
+.Form .field input[type="checkbox"].long-label,
+form .field input[type="checkbox"],
+form .field input[type="checkbox"].long-label {
+  margin: 10px 15px;
+  width: auto;
+  height: auto;
+  clear: both;
+}
+@media only screen and (min-width: 769px) {
+  /* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .Form .field input[type="checkbox"],
+  .Form .field input[type="checkbox"].long-label,
+  form .field input[type="checkbox"],
+  form .field input[type="checkbox"].long-label {
+    margin: 23px 15px;
+  }
+}
+/* line 78, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field.long-label input,
+form .field.long-label input {
+  width: 55%;
+}
+/* line 82, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field.long-label label,
+form .field.long-label label {
+  width: 45%;
+}
+/* line 88, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .field br,
+form .field br {
+  display: none;
+}
+/* line 93, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.Form .actions,
+form .actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 569px) {
+  /* line 104, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  form,
+  .Form,
+  .FormLinks {
+    width: 60%;
+    max-width: 600px;
+  }
+}
+
+/* line 113, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FieldGroup {
+  border-top: 1px solid #cfd9db;
+  border-bottom: 1px solid #cfd9db;
+}
+@media only screen and (min-width: 569px) {
+  /* line 113, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup {
+    border: 1px solid #cfd9db;
+    border-radius: 6px;
+  }
+}
+/* line 122, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FieldGroup .field {
+  margin-left: 15px;
+  border-bottom: 1px solid #cfd9db;
+}
+@media only screen and (min-width: 569px) {
+  /* line 122, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup .field {
+    margin: -1px;
+    padding: 2px 17px 1px 17px;
+    height: 70px;
+    line-height: 68px;
+  }
+}
+/* line 133, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FieldGroup .field:last-child {
+  border-bottom: 0;
+}
+@media only screen and (min-width: 569px) {
+  /* line 137, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup .field.field--focus {
+    border: 2px solid #3498DB;
+    padding: 0 15px 0 15px;
+  }
+  /* line 142, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup .field.field--focus:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+  /* line 146, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup .field.field--focus:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+  /* line 150, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroup .field.field--focus:first-child:last-child {
+    border-radius: 5px;
+  }
+}
+
+/* line 162, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FieldGroupTitle {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 162, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+  .FieldGroupTitle {
+    margin: 30px 0 15px 15px;
+  }
+}
+
+/* line 171, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FieldGroupNote {
+  margin: 7.5px 0 15px 15px;
+}
+
+/* line 176, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FormLink {
+  margin-left: 15px;
+}
+
+/* line 181, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.FormLinks {
+  margin: 15px auto;
+}
+
+/* line 185, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+#error_explanation {
+  margin: 0 15px;
+}
+
+/* line 197, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField {
+  text-transform: uppercase;
+}
+/* line 200, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField:placeholder {
+  text-transform: none;
+}
+/* line 203, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField::-webkit-input-placeholder{
+  text-transform: none;
+}
+.ConfirmationNumberField::-moz-placeholder{
+  text-transform: none;
+}
+.ConfirmationNumberField:-ms-input-placeholder{
+  text-transform: none;
+}
+.ConfirmationNumberField::placeholder {
+  text-transform: none;
+}
+/* line 206, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField:-moz-placeholder {
+  text-transform: none;
+}
+/* line 209, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField::-moz-placeholder {
+  text-transform: none;
+}
+/* line 212, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField:-ms-input-placeholder {
+  text-transform: none;
+}
+/* line 215, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/forms.scss */
+.ConfirmationNumberField::-webkit-input-placeholder {
+  text-transform: none;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+.Table {
+  width: 100%;
+  border-collapse: separate;
+  border-top: 1px solid #cfd9db;
+  border-bottom: 1px solid #cfd9db;
+}
+/* line 8, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+.Table th {
+  text-align: left;
+  border-bottom: 1px solid #cfd9db;
+}
+/* line 14, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+.Table th,
+.Table td {
+  padding: 15px 0;
+}
+/* line 19, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+.Table th:first-child,
+.Table td:first-child {
+  padding-left: 15px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+  .Table {
+    border-radius: 6px;
+    border: 1px solid #cfd9db;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 30, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/tables.scss */
+  .Table-no-mobile {
+    display: none;
+  }
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/pagination.scss */
+.pagination {
+  margin-top: 10px;
+  float: right;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero {
+  position: relative;
+  text-align: center;
+  color: #ECF0F1;
+  background-color: #2C3E50;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  padding: 50px 20px 50px;
+  background-image: url(/assets/hero-bg-500.jpg);
+}
+@media only screen and (min-width: 501px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero {
+    background-image: url(/assets/hero-bg-1000.jpg);
+  }
+}
+@media only screen and (min-width: 1001px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero {
+    background-image: url(/assets/hero-bg-2000.jpg);
+  }
+}
+@media only screen and (min-width: 769px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero {
+    padding: 100px 20px 100px;
+  }
+}
+@media (max-height: 480px) {
+  /* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero {
+    padding: 25px 20px 25px;
+  }
+}
+
+/* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero-header {
+  font-family: 'Cooper Hewitt Thin';
+  font-size: 46px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 769px) {
+  /* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero-header {
+    font-size: 54px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-height: 480px) {
+  /* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero-header {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 40, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero-sub {
+  font-family: 'Cooper Hewitt Light';
+  color: #c0cdd1;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+/* line 47, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero-add-reservation {
+  margin-top: 40px;
+}
+@media only screen and (min-width: 769px) {
+  /* line 47, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero-add-reservation {
+    margin-top: 50px;
+  }
+}
+@media (max-height: 480px) {
+  /* line 47, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+  .Hero-add-reservation {
+    margin-top: 20px;
+  }
+}
+
+/* line 59, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero-login {
+  margin-left: 10px;
+}
+
+/* line 63, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero-content {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 74, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/hero.scss */
+.Hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(top, #2c3e50, rgba(44, 62, 80, 0.3) 20%, rgba(44, 62, 80, 0.3) 80%, #2c3e50 100%);
+  background-image: linear-gradient(to bottom, #2c3e50, rgba(44, 62, 80, 0.3) 20%, rgba(44, 62, 80, 0.3) 80%, #2c3e50 100%);
+}
+
+/* line 3, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.Reservations,
+.Reservation {
+  margin: 0 auto;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 569px) {
+  /* line 3, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .Reservations,
+  .Reservation {
+    padding: 60px 10px 10px;
+  }
+  /* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .Reservations > *,
+  .Reservation > * {
+    text-align: left;
+  }
+}
+
+/* line 17, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.Reservations-actions {
+  padding: 0 10px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 17, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .Reservations-actions {
+    text-align: left;
+  }
+}
+
+/* line 24, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.Reservation {
+  text-align: center;
+}
+
+/* line 28, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard {
+  color: #ECF0F1;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #0866da;
+  border-radius: 10px;
+  min-width: 300px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 28, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .ReservationCard {
+    padding: 20px;
+  }
+}
+
+/* line 42, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-label,
+.ReservationCard-flight-group-title {
+  color: #e7d97b;
+}
+
+/* line 47, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-label {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* line 60, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-confirmation-number,
+.ReservationCard-confirmation-number-label {
+  text-align: left;
+}
+
+/* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-header {
+  padding: 10px 10px 0 10px;
+}
+@media only screen and (min-width: 569px) {
+  /* line 65, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .ReservationCard-header {
+    padding: 0;
+  }
+}
+
+/* line 73, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-message {
+  max-width: 400px;
+}
+
+/* line 77, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-indention-top {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #134B90;
+}
+@media only screen and (min-width: 569px) {
+  /* line 77, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .ReservationCard-indention-top {
+    padding-bottom: 15px;
+  }
+}
+
+/* line 86, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-indention-bottom {
+  padding-top: 15px;
+  border-top: 1px solid #297DE5;
+}
+
+/* line 91, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight-title {
+  margin-bottom: 3px;
+}
+
+/* line 96, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight {
+  margin-bottom: 20px;
+}
+
+/* line 100, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-passengers {
+  float: right;
+  text-align: right;
+}
+
+/* line 110, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight-details-group {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 569px) {
+  /* line 110, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .ReservationCard-flight-details-group {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+/* line 121, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight-checkins,
+.Reservations-checkins--success {
+  color: #45BF55;
+}
+
+/* line 127, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+td.Reservations-checkins {
+  padding-left: 18px;
+}
+/* line 130, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+td.Reservations-checkins.Reservations-checkins--success {
+  padding-left: 0;
+}
+
+/* line 135, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight-checkin {
+  margin: 3px 0;
+}
+
+/* line 139, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.Reservations {
+  max-width: 800px;
+  width: 100%;
+}
+@media only screen and (min-width: 569px) {
+  /* line 139, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .Reservations {
+    width: 90%;
+  }
+}
+
+/* line 148, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-badge {
+  background-color: #45BF55;
+  padding: 4px 4px 1px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #ECF0F1;
+}
+
+/* line 156, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flight-group-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* line 163, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flights {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 167, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-flights:last-child {
+  margin-right: 0;
+}
+@media only screen and (min-width: 569px) {
+  /* line 163, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+  .ReservationCard-flights {
+    margin-right: 30px;
+  }
+}
+
+/* line 176, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* line 182, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/reservations.scss */
+.ReservationCard-scheduled,
+.ReservationCard-flight-checkins {
+  margin-top: 5px;
+}
+
+/* line 1, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/static.scss */
+.StaticContainer {
+  background-color: #2C3E50;
+}
+
+/* line 5, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/static.scss */
+.Static {
+  color: #ECF0F1;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+/* line 11, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/static.scss */
+.Static h1,
+.Static h2,
+.Static h3,
+.Static h4,
+.Static h5,
+.Static h6 {
+  text-align: center;
+}
+
+/* line 37, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/application.scss */
+.Home {
+  background-color: #2C3E50;
+}
+
+/* line 41, /Users/Aaron/Repos/southwest-checkin/app/assets/stylesheets/application.scss */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
