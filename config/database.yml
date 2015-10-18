@@ -75,11 +75,12 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
-#
 production:
-  <<: *default
-  database: southwest_checkin_production
-  username: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_USER'] %>
-  password: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_PASSWORD'] %>
+ <<: *default
+ url: <%= ENV['DATABASE_URL'] %>
+
+#production:
+#  <<: *default
+#  database: southwest_checkin_production
+#  username: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_USER'] %>
+#  password: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_PASSWORD'] %>
