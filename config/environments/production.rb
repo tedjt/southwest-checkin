@@ -55,7 +55,8 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   require 'syslogger'
-  config.logger = ActiveSupport::TaggedLogging.new(Syslogger.new("southwest-checkin", Syslog::LOG_PID, Syslog::LOG_LOCAL7))
+  #config.logger = ActiveSupport::TaggedLogging.new(Syslogger.new("southwest-checkin", Syslog::LOG_PID, Syslog::LOG_LOCAL7))
+  config.logger = ActiveSupport::TaggedLogging.new(ActiveSupport::Logger.new(STDOUT))
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
