@@ -28,6 +28,7 @@ module Southwest
 
     def make_request(params)
       response = Typhoeus::Request.post(base_uri, body: params, headers: headers)
+      logger.info "received response #{response}"
       check_response!(response)
       store_cookies(response)
       response
@@ -72,7 +73,7 @@ module Southwest
     end
 
     def user_agent
-      "Southwest/#{app_version} CFNetwork/711.1.16 Darwin/14.0.0"
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19"
     end
 
     def app_version
