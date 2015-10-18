@@ -28,7 +28,7 @@ module Southwest
 
     def make_request(params)
       response = Typhoeus::Request.post(base_uri, body: params, headers: headers)
-      Rails.logger.info "received response #{response}"
+      Rails.logger.info "received response #{response.inspect}"
       check_response!(response)
       store_cookies(response)
       response
